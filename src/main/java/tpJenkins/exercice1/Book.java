@@ -1,4 +1,4 @@
-package Book;
+package tpJenkins.exercice1;
 
 import java.time.LocalDate;
 
