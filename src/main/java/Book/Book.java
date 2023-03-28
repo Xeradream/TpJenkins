@@ -3,43 +3,42 @@ package Book;
 import java.util.Date;
 
 public class Book {
-    String title;
-    String author;
-    Date published;
+    String titre;
+    String auteur;
+    Date publication;
 
-
-    public Book(String title, String author, Date published) {
-        this.title = title;
-        this.author = author;
-        this.published = published;
+    public Book(String titre, String auteur, Date publication) {
+        this.titre = titre;
+        this.auteur = auteur;
+        this.publication = publication;
     }
 
     public String getTitle() {
-        return title;
+        return titre;
     }
 
     public String getAuthor() {
-        return author;
+        return auteur;
     }
 
     public Date getPublished() {
-        return published;
+        return publication;
     }
 
     public void setTitle(String title) {
-        this.title = title;
+        this.titre = title;
     }
 
     public void setAuthor(String author) {
-        this.author = author;
+        this.auteur = author;
     }
 
     public void setPublished(Date published) {
-        this.published = published;
+        this.publication = published;
     }
 
     public String toString() {
-        return "Title: " + title + ", Author: " + author + ", Published: " + published;
+        return "Title: " + titre + ", Author: " + publication + ", Published: " + publication;
     }
 }
 
